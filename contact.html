@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .field {
+                margin-bottom: 10px;
+            }
+        </style>
+        <title>
+            Ahmad Mahmudov | Contact me
+        </title>
+    </head>
+    <body>
+        <h3>
+            <a href="./Portfolio.html"> Back to portfolio </a>
+        </h3>
+        <h3>Contact me</h3>
+        <form action="contact.php" method="GET">
+            <div class="field">
+                <label for="name">Your Name</label>
+                <input type="text" name="name">
+            </div>
+            
+            <div class="field">
+                <label for="p_number">Phone Number</label>
+                <input type="text" name="p_number">
+            </div>
+
+            <div class="field">
+                <label for="email">Your Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="field">
+                <label for="massage">Massage</label> 
+                <br>
+                <textarea id="massage" name="massage" rows="10"> </textarea>
+            </div>
+            <button type="submit"> Send</button>
+        </form>
+    </body>
+</html>
